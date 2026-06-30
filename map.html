@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>冒険スタート</title>
+
+<style>
+
+body {
+  margin: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+/* ゲーム画面 */
+.game-screen {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+}
+
+
+/* 背景画像 */
+.game-screen img {
+  width: 100%;
+  display: block;
+}
+
+
+/* すすむ透明ボタン */
+.next-button {
+
+  position: absolute;
+
+  /* すすむの場所 */
+  top: 65%;
+  left: 68%;
+
+  width: 27%;
+  height: 12%;
+
+
+  /* 透明 */
+  background: transparent;
+
+
+  /* マウスを乗せた時 */
+  cursor: pointer;
+}
+
+
+/* 確認用（位置調整するときだけON）
+.next-button {
+  background: rgba(255,0,0,0.3);
+}
+*/
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="game-screen">
+
+
+  <!-- mappage -->
+  <img src="mappage.png" alt="冒険スタート">
+
+
+  <!-- 透明なすすむボタン -->
+  <a href="map.html" class="next-button"></a>
+
+
+</div>
+
+
+
+</body>
+</html>
