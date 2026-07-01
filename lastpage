@@ -2,18 +2,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>MAP</title>
+<title>画像ページ</title>
 </head>
 
 <body style="margin:0;">
 
-<div style="position:relative;">
-
-  <!-- 画像 -->
-  <img src="mappage.png"
-       style="width:100%; display:block;">
-
-</div>
+<img src="lastpage.png"
+     style="width:100%; display:block;">
 
 </body>
 </html>
